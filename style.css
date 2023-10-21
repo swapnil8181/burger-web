@@ -1,0 +1,62 @@
+img{
+    width: 100%;
+}
+*{
+    padding: 0;
+    margin: 0 ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    
+}
+#hero,#about,#service,#contact{
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+.h-left,.h-right,.a-left,.a-right,.c-left,.c-right{
+    width: 50%;
+    padding:1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.s-dec{
+    width: 33.33%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 20rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.8rem;
+
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input,textarea{
+    margin: 1rem;
+    padding: 1rem;
+}
